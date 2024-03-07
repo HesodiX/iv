@@ -1,0 +1,238 @@
+@font-face {
+    font-family: "Unbounded";
+    src: url(./fonts/Unbounded-SemiBold.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: #000;
+    font-family: "Unbounded";
+}
+.header {
+    align-items: center;
+    background-color: #fff;
+    display: flex;
+    flex: none;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 50px;
+    height: min-content;
+    justify-content: center;
+    min-height: 800px;
+    overflow: hidden;
+    padding: 100px;
+    position: relative;
+    width: 100%;
+}
+.header h1 {
+    color:rgb(114, 76, 249);
+    font-family: "Unbounded";
+    font-size: clamp(40px, 8vw, 180px);
+    text-transform: uppercase;
+}
+.header a {
+    color: rgb(114, 76, 249);
+}
+.header .header_container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.section-1 {
+    background-color: #000;
+}
+.section-1-container-1 {
+    align-content: center;
+    align-items: center;
+    display: flex;
+    height: auto;
+    justify-content: center;
+    padding: 100px;
+    width: 100%;
+}
+.section-1-container-1-1 {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    width: 100%;
+    gap: 40px;
+}
+.section-1-container-1-1 h1 {
+    font-family: "Unbounded";
+    color: yellow;
+    font-size: 36px;
+}
+.section-1-container-1-1-1 {
+    display: flex;
+    max-width: 600px;
+    flex-direction: column;
+    gap: 40px;
+    font-family: "Unbounded";
+    color: rgb(202, 125, 249);
+    font-size: 18px;
+}
+.section-1-container-2 {
+    align-items: center;
+    background-color: #000;
+    display: flex;
+    flex: none;
+    gap: 60px;
+    height: min-content;
+    justify-content: center;
+    padding: 100px;
+    width: 100%;
+}
+.section-1-container-2-1 {
+    display: flex;
+    width: 100%;
+    max-width: 1000px;
+    justify-content: space-between; 
+    flex-wrap: wrap;
+}
+.section-1-container-2-1-1 {
+    display: flex;
+    flex-direction: column;
+    line-height: 20px;
+    color: rgb(237, 246, 125);
+    font-size: 12px;
+    width: 100%;
+    max-width: 400px;
+    font-family: "Unbounded";
+    gap: 20px;
+}
+.section-1-container-2-1-1 p {
+    max-width: 390px;
+}
+.section-1-container-2-1-1 h1 {
+    font-size: 18px;
+}
+.section-1-container-2-1-1 img {
+    height: 100%;
+    object-fit: cover;
+    filter: grayscale(1);
+    max-height: 400px;
+}
+.section-1-container-3 svg {
+    max-height: 150px;
+    max-width: 150px;
+}
+.section-1-container-3 {
+    align-items: center;
+    display: flex;
+    gap: 40px;
+    height: 400px;
+    justify-content: center;
+    padding: 100px;
+    width: 100%;
+}
+.section-1-container-4 {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+.section-1-container-4-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 100%;
+    max-width: 1000px;
+    font-family: "Unbounded";
+}
+.section-1-container-4-1 h1 {
+    color: rgb(248, 150, 216);
+    font-size: 28px;
+}
+.section-1-container-4-1 p {
+    color: #fff;
+}
+.section-1-container-4-1-item {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #0d0d0d;
+    cursor: pointer;
+}
+.section-1-container-4-1-item h1 {
+    color: #fff;
+    font-size: 24px;
+}
+.section-1-container-5 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    width: 100%;
+}
+.section-1-container-5-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 100%;
+    max-width: 1000px;
+    align-items: center;
+    text-align: center;
+    font-family: "Unbounded";
+}
+.section-1-container-5-1 h1 {
+    color: rgb(248, 150, 216);
+    font-size: 46px;
+    font-size: clamp(24px, 8vw, 46px);
+}
+.section-1-container-5-1 svg {
+    max-width: 200px;
+    max-height: 200px;
+}
+.section-1-container-5-1-1 {
+    display: flex;
+    gap: 40px;
+}
+.section-1-container-5-1-1 button {
+    padding: 10px;
+    font-family: "Unbounded";
+    cursor: pointer;
+    border-radius: 8px;
+    transition: 0.5s ease-in-out;
+}
+.section-1-container-5-1-1 button:hover {
+    border-radius: 40px;
+    transition: 0.5s ease-in-out;
+}
+.section-1-container-5-1-1 button:nth-child(1) {
+    background-color: #fff;
+    border: none;
+    font-size: 16px;
+}
+.section-1-container-5-1-1 button:nth-child(2) {
+    background-color: gray;
+    border: none;
+    font-size: 16px;
+    color: #000;
+}
+.footer {
+    align-items: center;
+    background-color: #000;
+    display: flex;
+    gap: 40px;
+    padding: 100px;
+    flex-direction: column;
+    width: 100%;
+    font-family: "Unbounded";
+    color: rgb(248, 150, 216);
+}
+.footer img {
+    cursor: pointer;
+}
+.footer_container_1 {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.footer_container_2 {
+    text-align: center;
+}
